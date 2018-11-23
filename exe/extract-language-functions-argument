@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 
-require "main/php"
+require "main"
 
-php = Main::Php.new("#{Dir.home}/Library/Application Support/Dash/DocSets/PHP/PHP.docset")
-puts php.run
+#php = Main::Php.new
+#puts php.run
+
+ruby = Main::Ruby.new
+puts ruby.run

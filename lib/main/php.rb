@@ -8,7 +8,7 @@ require_relative 'runner'
 module Main
   class Php < Runner
     def run
-      archive = Pathname(@docset).join("Contents", "Resources", "tarix.tgz")
+      archive = Pathname("#{Dir.home}/Library/Application Support/Dash/DocSets/PHP/PHP.docset").join("Contents", "Resources", "tarix.tgz")
       CSV.generate do |csv|
         Zlib::GzipReader.open(archive) do |gz|
           Gem::Package::TarReader.new(gz) do |tar|
