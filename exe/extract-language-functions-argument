@@ -5,5 +5,8 @@ require "main"
 #php = Main::Php.new
 #puts php.run
 
-ruby = Main::Ruby.new
-puts ruby.run
+#ruby = Main::Ruby.new
+#puts ruby.run
+
+go = Main::Go.new
+puts go.run

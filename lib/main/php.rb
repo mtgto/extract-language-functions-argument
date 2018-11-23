@@ -3,7 +3,6 @@ require 'nokogiri'
 require 'pathname'
 require 'zlib'
 require 'rubygems/package'
-require_relative 'runner'
 
 module Main
   class Php < Runner
