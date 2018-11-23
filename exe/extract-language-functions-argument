@@ -8,5 +8,8 @@ require "main"
 #ruby = Main::Ruby.new
 #puts ruby.run
 
-go = Main::Go.new
-puts go.run
+#go = Main::Go.new
+#puts go.run
+
+java = Main::Java.new
+puts java.run
